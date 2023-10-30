@@ -1,3 +1,3 @@
 export const config = {
-    api: "https://socitalk.onrender.com"
+    api: "http://localhost:4444"
 }

@@ -19,7 +19,7 @@ import SmileyIcon from '../../assets/smiley.png'
 import { IoSendSharp } from 'react-icons/io5'
 import io from 'socket.io-client'
 
-const ENDPOINT = 'https://soci-talk.herokuapp.com'
+const ENDPOINT = 'http://localhost:4444'
 var socket, selectedChatCompare
 
 const OneOnOneChat = () => {
@@ -222,13 +222,13 @@ const OneOnOneChat = () => {
                                 <Box>{showHideEmojiPicker ? <EmojiPicker onEmojiClick={handleSelectEmoji} /> : <></>}</Box>
                                 <Box display="flex" alignItems={"center"} gap={1}>
                                     <img src={SmileyIcon} className="emojiIcon" onClick={() => setShowHideEmojiPicker(!showHideEmojiPicker)} />
-                                    <Input variant={"filled"} bg="teal" placeholder='Enter a message...'
-                                        _hover={{ bg: "teal" }} _focus={{ border: "none", bg: "teal" }}
+                                    <Input variant={"filled"} bg="rgb(55,90,100)" placeholder='Enter a message...'
+                                        _hover={{ bg: "rgb(55,90,100)" }} _focus={{ border: "none", bg: "rgb(55,90,100)" }}
                                         _placeholder={{ color: "white" }}
                                         color="white"
                                         onChange={handleTyping}
                                         value={newMessages} />
-                                    <IconButton bg={"teal"} _hover={{ bg: "teal" }} onClick={handlesendMessageUsingArrow}>
+                                    <IconButton bg={"rgb(55,90,100)"} _hover={{ bg: "rgb(55,90,100)" }} onClick={handlesendMessageUsingArrow}>
                                         <IoSendSharp style={{ fontSize: "25px" }} />
                                     </IconButton>
                                 </Box>

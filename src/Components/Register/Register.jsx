@@ -47,9 +47,8 @@ const Register = () => {
         if (pic.type === "image/jpeg" || pic.type === "image/png") {
             const data = new FormData()
             data.append("file", pic)
-            data.append("upload_preset", "socitalk-chatapp")
-            data.append("cloud_name", "thoddusamy")
-            fetch("https://api.cloudinary.com/v1_1/thoddusamy/image/upload", {
+            data.append("upload_preset", "hlg8sh4a")
+            fetch("https://api.cloudinary.com/v1_1/dsibhutxu/image/upload", {
                 method: "post",
                 body: data
             }).then((res) => res.json()).then((data) => {

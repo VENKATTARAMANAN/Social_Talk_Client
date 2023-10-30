@@ -28,7 +28,7 @@
     position: absolute !important;
     bottom: 50px !important;
     z-index: 100 !important;
-    background-color: teal !important;
+    background-color: rgb(55,90,100) !important;
     width: 250px !important;
     height: 300px !important;
     border: none !important;
@@ -53,7 +53,7 @@
 }
 
 .EmojiPickerReact .epr-emoji-category-label {
-    background-color: teal !important;
+    background-color: rgb(55,90,100) !important;
     color: #fff !important;
 }
 

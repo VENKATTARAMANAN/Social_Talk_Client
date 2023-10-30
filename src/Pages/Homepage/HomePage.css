@@ -22,7 +22,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: teal;
+    background-color: rgb(55,90,100);
 }
 
 .grid__Container .left .anime {
@@ -67,7 +67,7 @@
 }
 
 .grid__Container .right .btns_div .chakra-tabs__tablist {
-    border: 2px solid teal;
+    border: 2px solid rgb(55,90,100);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@
         justify-content: center;
         font-family: 'Nabla', cursive;
         display: block;
-        background-color: teal;
+        background-color:rgb(55,90,100);
         padding: 5px 20px;
         margin: 20px 0 35px 0;
         width: 100%
@@ -141,7 +141,7 @@
         align-items: center !important;
         justify-content: center !important;
         width: 80vw;
-        border: 2px solid teal;
+        border: 2px solid rgb(55,90,100);
         gap: 30px;
         padding: 2px;
         margin: 0 30px;

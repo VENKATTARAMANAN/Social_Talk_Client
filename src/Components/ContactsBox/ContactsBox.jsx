@@ -46,7 +46,7 @@ const ContactBox = () => {
             alignItems="center"
             p={3}
             m={3}
-            bg="teal"
+            bg="rgb(55,90,100)"
             color="white"
             h={"100%"}
             w={{ base: "100%", md: "30%" }}
@@ -82,7 +82,7 @@ const ContactBox = () => {
                             return (
                                 <Box onClick={() => context.setSelectedChat(chat)}
                                     cursor="pointer"
-                                    bg={context.selectedChat === chat ? "teal" : "#adb5bd"}
+                                    bg={context.selectedChat === chat ? "rgb(55,90,100)" : "#adb5bd"}
                                     color={context.selectedChat === chat ? "white" : "black"}
                                     px={3}
                                     py={2}

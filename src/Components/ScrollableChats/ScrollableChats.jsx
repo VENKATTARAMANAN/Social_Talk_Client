@@ -26,14 +26,14 @@ const ScrollableChats = ({ messages }) => {
                                 mr={1}
                                 size={"sm"}
                                 cursor="pointer"
-                                bg={"teal"}
+                                bg={"rgb(55,90,100)"}
                                 name={msg.sender.name}
                                 src={msg.sender.pic}
                             />
                         )
                     }
                     <span style={{
-                        backgroundColor: `${msg.sender._id === context.user._id ? "teal" : "#adb5bd"}`,
+                        backgroundColor: `${msg.sender._id === context.user._id ? "rgb(55,90,100)" : "#adb5bd"}`,
                         color: `${msg.sender._id === context.user._id ? "white" : "black"}`,
                         borderTopRightRadius: "20px",
                         borderTopLeftRadius: "20px",

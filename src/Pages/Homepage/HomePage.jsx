@@ -38,9 +38,9 @@ const HomePage = () => {
                         <Tabs variant='soft-rounded'>
                             <TabList>
                                 <Tab onClick={() => setBgColor(false)}
-                                    style={bgColor ? null : { backgroundColor: "teal", color: "#fff" }}>Login</Tab>
+                                    style={bgColor ? null : { backgroundColor: "rgb(55,90,100)", color: "#fff" }}>Login</Tab>
                                 <Tab onClick={() => setBgColor(true)}
-                                    style={bgColor ? { backgroundColor: "teal", color: "#fff" } : null}>Register</Tab>
+                                    style={bgColor ? { backgroundColor: "rgb(55,90,100)", color: "#fff" } : null}>Register</Tab>
                             </TabList>
                             <TabPanels>
                                 <TabPanel>
